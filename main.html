@@ -8,9 +8,43 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <!-- <script type="text/javascript" src="./script.js">
+</script> -->
+<form method="post">
+	<fieldset>
+		<legend>Signup form</legend>
+	
+	<label for="name">Name :</label>
+	<input type="text" id="name" name="name" placeholder="Name" required /><br/><br/>
+<label for="email">Email :</label>
+	<input type="email" id="email" name="email" placeholder="Email" required/><br/><br/>
+<label for="male">Male</label> 
+	<input type="radio" id="gender_m" name="gender"/>
 
+	<label for="female">Female</label> 
+	<input type="radio" id="gender_f" name="gender"/><br><br>
+	<label for="cars">Choose a car:</label>
+<select name="cars" id="cars" placeholder="Please choose an option" required>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="opel">Opel</option>
+  <option value="audi">Audi</option>
+</select><br><br>
+	<label for="age">Age:</label>
+        <input type="number" id="age" name="age" placeholder="Age" required><br><br>
+
+	<label for="date">DOB:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+	<label for="tel">Telephone:</label>
+        <input type="tel" id="tel" name="tel" placeholder="xxx-xxx-xxxx"><br><br>
+	<label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+	<level for="terms">I agree to the TOS</level>
+	<input type="checkbox" name="tos" id="tos" required><br><br>
+	<button type="submit">Submit</button>
+	
+</form>
+</fieldset>
 </body>
 
 </html>
